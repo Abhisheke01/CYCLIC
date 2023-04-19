@@ -35,14 +35,10 @@ let patients = [
     bloodType: 'O-',
     disease: 'Parkinson\'s disease'
   },
-  {
-    id: 3,
-    name: 'CHUCK',
-    age: 45,
-    ward: 'Neurology',
-    bloodType: 'O-',
-    disease: 'Parkinson\'s disease'
-  }
+ 
+   {"id":3,"name":"David Kim","age":45,"ward":"SW","bloodType":"A-","disease":"NONE"},  {"id":4,"name":"Karen Chen","age":29,"ward":"NW","bloodType":"O+","disease":"NONE"},  {"id":5,"name":"Michael Brown","age":55,"ward":"SE","bloodType":"AB-","disease":"NONE"},  {"id":6,"name":"Jennifer Lee","age":23,"ward":"NONE","bloodType":"A+","disease":"NONE"},  {"id":7,"name":"Matthew Johnson","age":41,"ward":"NE","bloodType":"O-","disease":"NONE"},  {"id":8,"name":"Emily Davis","age":30,"ward":"SW","bloodType":"B+","disease":"NONE"},  {"id":9,"name":"William Smith","age":48,"ward":"NW","bloodType":"AB+","disease":"NONE"},  {"id":10,"name":"Avery Brown","age":26,"ward":"SE","bloodType":"A-","disease":"NONE"}
+
+  
 ];
 
 // GET all patients
