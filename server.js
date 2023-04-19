@@ -1,5 +1,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
